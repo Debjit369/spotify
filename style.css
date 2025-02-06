@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Montserrat';
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: rgb(40, 13, 13);
+    color: azure;
+    font-family:'Montserrat' ;
+    display: flex;
+    width:61%;
+    margin: 30px auto ;
+    border-radius: 20px;
+    padding: 34px;
+    background-image:url(3WZUES.webp);
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(34, 29, 70);
+    color: aquamarine;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    margin-top:10px;
+   
+}
+.icon{
+    cursor: pointer;
+}
+
+
+
+
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.songs{
+   height: 50px;
+   width: 120%;
+   display: flex;
+   background-color: black;
+   margin:12px 0;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 34px;
+}
+.songs img{
+    width: 40px;
+    
+    
+}
+.time{
+    margin: 0 23px;
+}
+.video{
+    position:absolute;
+    left: 10vw;
+    font-family:'Montserrat' ;
+}
+.video img{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
