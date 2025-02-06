@@ -1,7 +1,7 @@
 console.log("welcome to spotify");
 
 let songindex=0;
-let audioElement = new Audio('song.mp3');
+let audioElement = new Audio('Bobby Deol Animal Entry Song  Jamaal Jamaloo  animal song  Bobby Deol song Animal.mp3');
 let masterplay =document.getElementById('masterplay');
 let progressbar =document.getElementById('progressbar');
 let gif =document.getElementById('gif');
